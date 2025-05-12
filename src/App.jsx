@@ -9,7 +9,7 @@ const App = () => {
 
         <div className=''>
           <a title='Decrement' className='font-bold text-xl cursor-pointer bg-gray-300 px-6 py-4 rounded-l-lg hover:bg-gray-500 hover:text-white'><span>-</span></a>
-          <input className='bg-white font-bold w-[30px] text-center p-2 mx-5 text-gray-500' type="text" name='quantity' value='0' />
+          <input className='bg-white font-bold w-[30px] text-center p-2 mx-5 text-gray-500' type="text" name='quantity'  value='0'/>
           <a title='Increment' className='font-bold text-xl cursor-pointer bg-gray-300 px-6 py-4 rounded-r-lg hover:bg-gray-500 hover:text-white'><span>+</span></a> 
         </div>
       </div>

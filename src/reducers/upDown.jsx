@@ -1,6 +1,6 @@
 // ! REDUCER
 
-const intialState = 0;
+const intialState = 10;
 const changeNumber = (state = intialState , action) =>{
     switch(action.type){
         case "INCREMENT": return state +1;
