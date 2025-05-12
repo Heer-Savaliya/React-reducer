@@ -7,10 +7,10 @@ const App = () => {
         <h1 className='text-gray-500 text-5xl font-semibold font-serif'>Increment/Decrement counter</h1>
         <h4 className='text-gray-500 text-lg font-semibold italic lowercase'>Using React and Redux</h4>
 
-        <div className='bg-gray-300 px-7 py-2 text-center'>
-          <a title='Decrement' className='font-bold text-xl'><span>-</span></a>
-          <input className='bg-white font-bold w-[50px] text-center p-3 mx-7 text-gray-500' type="text" name='quantity' value='0' />
-          <a title='Increment' className='font-bold text-xl'><span>+</span></a>
+        <div className=''>
+          <a title='Decrement' className='font-bold text-xl cursor-pointer bg-gray-300 px-6 py-4 rounded-l-lg hover:bg-gray-500 hover:text-white'><span>-</span></a>
+          <input className='bg-white font-bold w-[30px] text-center p-2 mx-5 text-gray-500' type="text" name='quantity' value='0' />
+          <a title='Increment' className='font-bold text-xl cursor-pointer bg-gray-300 px-6 py-4 rounded-r-lg hover:bg-gray-500 hover:text-white'><span>+</span></a> 
         </div>
       </div>
     </>
