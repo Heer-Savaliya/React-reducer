@@ -1,12 +1,46 @@
-# React + Vite
+# Redux Basics with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This README provides a beginner-friendly introduction to **Redux**, how it works, and how to use it in a React project using **Redux Toolkit**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 What is Redux?
 
-## Expanding the ESLint configuration
+**Redux** is a predictable state management library for JavaScript apps. It helps you manage the state of your application in a centralized place and ensures that the state behaves consistently.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Key Concepts:
+
+1. **Store**: The single source of truth. Holds the entire application state.
+2. **Actions**: Plain JavaScript objects that describe what happened.
+3. **Reducers**: Pure functions that determine how the state changes based on actions.
+4. **Dispatch**: A method to send actions to the store.
+5. **Selector**: A way to read data from the state.
+
+---
+
+## 📦 Why Use Redux?
+
+- Centralized state management
+- Predictable state updates
+- Easy debugging with Redux DevTools
+- Makes complex state logic easier to manage
+
+---
+
+## 🧱 Redux Toolkit
+
+Redux Toolkit is the official, recommended way to write Redux logic. It simplifies configuration and reduces boilerplate.
+
+### Advantages:
+- Built-in `createSlice`, `configureStore`
+- Immutability with Immer
+- DevTools integration
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install Dependencies
+
+```bash
+npm install @reduxjs/toolkit react-redux
