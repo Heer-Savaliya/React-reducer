@@ -1,4 +1,4 @@
-# Redux Basics with React
+ # Redux Basics with React
 
 This README provides a beginner-friendly introduction to **Redux**, how it works, and how to use it in a React project using **Redux Toolkit**.
 
@@ -38,9 +38,6 @@ Redux Toolkit is the official, recommended way to write Redux logic. It simplifi
 
 ---
 
-## 🚀 Getting Started
 
-### 1. Install Dependencies
+   
 
-```bash
-npm install @reduxjs/toolkit react-redux
